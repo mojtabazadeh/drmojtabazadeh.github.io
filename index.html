@@ -2,21 +2,18 @@
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>شبکه علمی دکتر سعید مجتبی‌زاده</title>
+  <title>وبگاه دکتر سعید مجتبی‌زاده</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <meta name="description" content="اولین فوق‌دکتری مهندسی ژئوتکنیک لرزه‌ای در ایران">
   <meta name="keywords" content="دکتر سعید مجتبی زاده, Saeed Mojtabazadeh, مهندسی ژئوتکنیک, پژوهشگر برتر استان زنجان, نخبه علمی">
   <meta name="author" content="Saeed Mojtabazadeh">
-
   <meta property="og:title" content="دکتر سعید مجتبی‌زاده">
   <meta property="og:description" content="پایگاه دکتر سعید مجتبی‌زاده">
   <meta property="og:image" content="https://github.com/mojtabazadeh/saeedmojtabazadeh.github.io/blob/main/Mojtabazadeh.jpg?raw=true">
   <meta property="og:url" content="http://www.mojtabazadeh.ir/">
   <meta name="twitter:card" content="summary_large_image">
-
   <link rel="icon" type="image/png" sizes="48x48" href="https://raw.githubusercontent.com/mojtabazadeh/drmojtabazadeh.github.io/b3b49472bd169f06e9a138ffa831d88014689305/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     html,body{width:100%;height:100%;overflow-x:hidden}
@@ -32,9 +29,7 @@
       padding:20px 10px 40px;
     }
     body.lang-en{font-family:'Poppins',sans-serif;direction:ltr;text-align:center}
-
     #particles {position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1}
-
     .profile-container {
       width:150px;
       height:150px;
@@ -51,7 +46,6 @@
       0%,100%{transform:translateY(0)}
       50%{transform:translateY(-6px)}
     }
-
     .title-wrapper {
       max-width:90vw;margin-bottom:20px;
       animation:fadeInUp 1s ease forwards;opacity:0;transform:translateY(10px);
@@ -71,7 +65,6 @@
       margin-top:4px;
       text-shadow:0 1px 3px rgba(0,0,0,0.4);
     }
-
     .link-bar {
       display:flex;flex-wrap:wrap;justify-content:center;
       gap:10px;max-width:95vw;margin-bottom:16px;
@@ -91,7 +84,6 @@
       box-shadow:0 0 12px rgba(180,100,255,0.7);
       transform:translateY(-2px);
     }
-
     .about-box {
       position:relative;
       max-width:900px;
@@ -108,7 +100,6 @@
       max-height:40vh;
       -webkit-overflow-scrolling: touch;
     }
-
     body.lang-en .about-box {
       text-align:justify;
       text-align-last:left;
@@ -117,12 +108,10 @@
       text-align:justify;
       text-align-last:right;
     }
-
     @keyframes floatBox {
       0%,100%{transform:translateY(0)}
       50%{transform:translateY(-4px)}
     }
-
     .contact-box {
       margin-top:8px;
       padding:12px 18px;
@@ -157,10 +146,8 @@
       0%,100% { box-shadow:0 0 10px rgba(180,100,255,0.3); }
       50% { box-shadow:0 0 18px rgba(200,150,255,0.5); }
     }
-
     .footer {font-size:0.8rem;margin-top:18px;opacity:0.7}
     .footer a {color:white;text-decoration:none}
-
     .lang-switch {
       position:fixed;top:12px;left:12px;display:flex;gap:6px;z-index:99;
     }
@@ -173,7 +160,6 @@
     .lang-switch button:hover {
       background:rgba(255,255,255,0.3);transform:scale(1.05);
     }
-
     .smooth-switch {animation:smoothFadeSlide 0.9s ease;}
     @keyframes smoothFadeSlide {
       0%{opacity:1;transform:translateY(0)}
@@ -186,7 +172,6 @@
       0%,100%{text-shadow:0 0 8px rgba(200,150,255,0.6)}
       50%{text-shadow:0 0 14px rgba(200,150,255,1)}
     }
-
     @media(max-width:480px){
       .profile-container{width:120px;height:120px;}
       .link-bar{gap:6px}
@@ -202,9 +187,6 @@
         font-size: 0.95rem;
       }
     }
-
-
-    
     .download-btn {
       position: fixed;
       top: 12px;
@@ -240,54 +222,42 @@
     .download-btn:hover::before {
       left: 100%;
     }
-
-    
-    
   </style>
 </head>
 <body>
   <canvas id="particles"></canvas>
-
   <div class="lang-switch">
     <button id="btn-fa">فارسی</button>
     <button id="btn-en">English</button>
   </div>
-
   <a href="https://www.dasbem.ir/" target="_blank" class="download-btn" id="download-btn">پروژه داس‌بم</a>
-
   <div class="profile-container">
     <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
       <defs><clipPath id="circleView"><circle cx="50" cy="50" r="50"/></clipPath></defs>
       <image clip-path="url(#circleView)" href="https://github.com/mojtabazadeh/saeedmojtabazadeh.github.io/blob/main/Mojtabazadeh.jpg?raw=true" width="100" height="100" preserveAspectRatio="xMidYMid slice"/>
     </svg>
   </div>
-
   <div class="title-wrapper">
     <h1 class="title-line" id="main-title">دکتر سعید مجتبی‌زاده</h1>
     <h2 class="title-sub" id="sub-title">فوق‌دکتری مهندسی عمران در گرایش ژئوتکنیک لرزه‌ای</h2>
   </div>
-
   <div class="link-bar" id="links"></div>
-
   <div class="about-box" id="about-text" tabindex="0" aria-label="درباره دکتر سعید مجتبی‌زاده">
     دکتر سعید مجتبی‌زاده حسنلوئی، به عنوان اولین پژوهشگر پسادکتری مهندسی عمران-ژئوتکنیک در ایران، از سال 1394 بر توسعه‌ی الگوریتم‌های محاسباتی و مدلسازی عددی پیشرفته در حوزه‌ی ژئومکانیک لرزه‌ای متمرکز شده است. او رساله‌ی دوره‌ی دکتری تخصصی و طرح پژوهشی پسادکتری خویش را بر مسأله‌ی انتشار و پراکنش امواج لرزه‌ای در محیط‌های با خواص اورتوتروپیک از جمله عوارض توپوگرافی گوناگون، با استفاده از روش اجزای مرزی نیم‌فضای مستقیم در حوزه‌ی زمان معطوف نموده است. از موضوعات پژوهشی مورد علاقه‌ی وی می‌توان به توسعه‌ی روش‌های عددی همچون روش اجزای مرزی، اجزای محدود و رویکردهای ترکیبی جهت مدلسازی و تحلیل عددی مسائل لرزه‌ای، بررسی اثرات ساختگاهی ناشی از حضور عوارض توپوگرافی سطحی و زیر‌سطحی، مکانیک محیط‌های نانو/متخلخل و ایزولاسیون لرزه‌ای اشاره نمود. 
   </div>
-
   <div class="contact-box">
     <a class="contact-item" href="mailto:mojtabazadeh@outlook.com"><span class="contact-icon" aria-hidden="true">📧</span>mojtabazadeh@outlook.com</a>
     <a class="contact-item" href="tel:+989334115773"><span class="contact-icon" aria-hidden="true">📞</span>+98 933 411 5773</a>
   </div>
-
   <div class="footer" id="footer">
     سعید مجتبی‌زاده ©
   </div>
-
   <script defer>
     const data={
       fa:{
         title:"دکتر سعید مجتبی‌زاده",
         sub:"فوق‌دکتری مهندسی عمران در گرایش ژئوتکنیک لرزه‌ای",
-        about:`دکتر سعید مجتبی‌زاده حسنلوئی، به عنوان اولین پژوهشگر پسادکتری مهندسی عمران-ژئوتکنیک در ایران، از سال 1394 بر توسعه‌ی الگوریتم‌های محاسباتی و مدلسازی عددی پیشرفته در حوزه‌ی ژئومکانیک لرزه‌ای متمرکز شده است. او رساله‌ی دوره‌ی دکتری تخصصی و طرح پژوهشی پسادکتری خویش را بر مسأله‌ی انتشار و پراکنش امواج لرزه‌ای در محیط‌های با خواص اورتوتروپیک از جمله عوارض توپوگرافی گوناگون، با استفاده از روش اجزای مرزی نیم‌فضای مستقیم در حوزه‌ی زمان معطوف نموده است. از موضوعات پژوهشی مورد علاقه‌ی وی می‌توان به توسعه‌ی روش‌های عددی همچون روش اجزای مرزی، اجزای محدود و رویکردهای ترکیبی جهت مدلسازی و تحلیل عددی مسائل لرزه‌ای، بررسی اثرات ساختگاهی ناشی از حضور عوارض توپوگرافی سطحی و زیر‌سطحی، مکانیک محیط‌های نانو/متخلخل و ایزولاسیون لرزه‌ای اشاره نمود. `,
+        about:`دکتر سعید مجتبی‌زاده حسنلوئی، به عنوان اولین پژوهشگر پسادکتری مهندسی عمران-ژئوتکنیک در ایران، از سال 1394 بر توسعه‌ی اَلگوریتم‌های محاسباتی و مدلسازی عددی پیشرفته در حوزه‌ی ژئومکانیک لرزه‌ای متمرکز شده است. او رساله‌ی دوره‌ی دکتری تخصصی و طرح پژوهشی پسادکتری خویش را بر مسأله‌ی انتشار و پراکنش امواج لرزه‌ای در محیط‌های با خواص اورتوتروپیک از جمله عوارض توپوگرافی گوناگون، با استفاده از روش اجزای مرزی نیم‌فضای مستقیم در حوزه‌ی زمان معطوف نموده است. از موضوعات پژوهشی مورد علاقه‌ی وی می‌توان به توسعه‌ی روش‌های عددی همچون روش اجزای مرزی، اجزای محدود و رویکردهای ترکیبی جهت مدلسازی و تحلیل عددی مسائل لرزه‌ای، بررسی اثرات ساختگاهی ناشی از حضور عوارض توپوگرافی سطحی و زیر‌سطحی، مکانیک محیط‌های نانو/متخلخل و ایزولاسیون لرزه‌ای اشاره نمود. `,
         footer:"سعید مجتبی‌زاده ©",
         links:[
           {text:"🎓 گوگل اسکالر",href:"https://scholar.google.com/citations?user=YphpjTcAAAAJ&hl=en"},
@@ -307,13 +277,11 @@
         ]
       }
     };
-
     const mainTitle=document.getElementById("main-title"),
           subTitle=document.getElementById("sub-title"),
           linksContainer=document.getElementById("links"),
           aboutText=document.getElementById("about-text");
           downloadBtn=document.getElementById("download-btn"); 
-
     function buildLinks(lang){
       linksContainer.innerHTML="";
       data[lang].links.forEach(l=>{
@@ -346,7 +314,6 @@
     switchLang(savedLang);
     document.getElementById("btn-fa").addEventListener("click",()=>switchLang("fa"));
     document.getElementById("btn-en").addEventListener("click",()=>switchLang("en"));
-
     const canvas=document.getElementById("particles"),ctx=canvas.getContext("2d");
     let particles=[];
     function createParticles(){
@@ -369,7 +336,6 @@
     }
     resizeParticles();
     window.addEventListener("resize",resizeParticles);
-
     (function draw(){
       ctx.clearRect(0,0,window.innerWidth,window.innerHeight);
       ctx.fillStyle="rgba(200,150,255,0.8)";
